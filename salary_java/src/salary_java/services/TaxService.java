@@ -1,8 +1,6 @@
 package salary_java.services;
 
-public class TaxService {
+public interface TaxService {
 
-	public double tax(double amount) {
-		return amount * 0.2;
-	}
+	public double tax(double amount);
 }
